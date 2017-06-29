@@ -1,0 +1,12 @@
+gitscss_files: 'app/assets/stylesheets/**'
+exclude:
+  - 'app/assets/stylesheets/application.css'
+  - 'app/assets/stylesheets/gentelella/gentelella-custom.scss'
+  - 'app/assets/stylesheets/admin/admin.scss'
+  - 'app/assets/stylesheets/employer/override_template.scss'
+  - 'vendor/assets/**'
+linters:
+  ImportantRule:
+    enabled: false
+  MergeableSelector:
+    enabled: false
