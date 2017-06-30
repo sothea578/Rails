@@ -32,3 +32,8 @@ en:
       this: "Contact the Ruby on Rails Tutorial
         about the sample app at the %{cp}."
       cp: "Contact page"
+  users:
+    new:
+      signup: "Sign up"
+      content: "This will be a signup page for new users."
+      login: "login"
