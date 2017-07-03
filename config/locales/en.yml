@@ -5,6 +5,7 @@ en:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+      hello: "Welcome to the Sample app!"
   static_pages:
     home:
       home: "Home"
@@ -34,6 +35,14 @@ en:
       cp: "Contact page"
   users:
     new:
-      signup: "Sign up"
+      signup: "sign up"
       content: "This will be a signup page for new users."
       login: "login"
+      confirm: "Confirmation"
+      create: "Create my account"
+      hello: "Welcome to the Sample app!"
+      creating: "Creating..."
+  shared:
+    error_messages:
+      contains: "The form contains %{count_errors}"
+      error: "error"
