@@ -5,7 +5,24 @@ en:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
-      hello: "Welcome to the Sample app!"
+    header:
+      sample: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+      home: "Home"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Logout"
+    footer:
+      content: "The %{rort} by %{mh}"
+      rort: "Ruby on Rails Tutorial"
+      mh: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
   static_pages:
     home:
       home: "Home"
@@ -40,9 +57,17 @@ en:
       login: "login"
       confirm: "Confirmation"
       create: "Create my account"
-      hello: "Welcome to the Sample app!"
       creating: "Creating..."
+    create:
+      hello: "Welcome to the Sample app!"
   shared:
     error_messages:
       contains: "The form contains %{count_errors}"
       error: "error"
+  sessions:
+    new:
+      login: "Login"
+      signup: "Sign up now!"
+      users: "New user? "
+    create:
+      invalid: "Invalid email/password combination"
