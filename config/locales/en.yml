@@ -51,15 +51,31 @@ en:
         about the sample app at the %{cp}."
       cp: "Contact page"
   users:
+    user:
+      delete: "Delete"
+      sure: "You sure?"
+    index:
+      users: "All users"
+    show:
+      notfound: "Not found this User"
+    destroy:
+      destroy: "%{user} deleted"
     new:
-      signup: "sign up"
+      signup: "Sign up"
       content: "This will be a signup page for new users."
-      login: "login"
-      confirm: "Confirmation"
+      hello: "Welcome to the Sample App"
       create: "Create my account"
-      creating: "Creating..."
-    create:
-      hello: "Welcome to the Sample app!"
+      creating: "Creating....."
+      signup: "Sign up"
+      confirm: "Confirmation"
+    edit:
+      edit: "Edit user"
+      update: Update your profile
+      confirm: "Confirmation"
+      submit: "Save changes"
+      change: "Change"
+    update:
+      updated: "Profile updated"
   shared:
     error_messages:
       contains: "The form contains %{count_errors}"
