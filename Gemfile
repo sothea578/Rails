@@ -5,6 +5,7 @@ gem "jquery-rails", "4.3.1"
 gem "puma", "3.9.1"
 gem "rails", "5.0.3"
 gem "bcrypt", "3.1.11"
+gem "config"
 gem "faker", "1.7.3"
 gem "will_paginate", "3.1.5"
 gem "bootstrap-will_paginate", "1.0.0"
@@ -14,6 +15,7 @@ gem "therubyracer"
 gem "turbolinks", "5.0.1"
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
 gem "uglifier", "3.2.0"
+gem "figaro"
 
 group :development, :test do
   gem "byebug", "9.0.6", platform: :mri

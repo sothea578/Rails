@@ -1,8 +1,10 @@
 User.create! name: "Nuon Sothea",
- email: "thea578@gmail.com",
- password: "123456",
- password_confirmation: "123456",
- admin: true
+  email: "thea578@gmail.com",
+  password: "123456",
+  password_confirmation: "123456",
+  admin: true,
+  activated: true,
+  activated_at: Time.zone.now
 
 99.times do |n|
   name  = Faker::Name.name
@@ -11,5 +13,8 @@ User.create! name: "Nuon Sothea",
   User.create! name:  name,
     email: email,
     password: password,
+    password_confirmation: password,
+    activated: true,
+    activated_at: Time.zone.now
     password_confirmation: password
 end
