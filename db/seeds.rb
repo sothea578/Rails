@@ -16,5 +16,4 @@ User.create! name: "Nuon Sothea",
     password_confirmation: password,
     activated: true,
     activated_at: Time.zone.now
-    password_confirmation: password
 end
