@@ -3,7 +3,7 @@ en:
   activated: "Account activated!"
   error_link: "Invalid activation link"
   pass_reset: "Email sent with password reset instructions"
-  e_not_found: "Email address not found"
+  email_not_found: "Email address not found"
   active: "Account activation"
   hi: "Hi"
   reset_p: "Password reset"
@@ -93,6 +93,14 @@ en:
     error_messages:
       contains: "The form contains %{count_errors}"
       error: "error"
+  password_resets:
+    edit:
+      reset: "Reset password"
+      confirm: "Confirmation"
+      update: "Update password"
+    new:
+      forgot: "Forgot password"
+      submit: "Submit"
   sessions:
     new:
       login: "Login"

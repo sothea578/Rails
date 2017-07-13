@@ -22,7 +22,7 @@ exclude_paths:
   InstanceVariableAssumption:
     enabled: false
   TooManyStatements:
-    max_statements: 10
+    max_statements: 15
   NilCheck:
     enabled: false
   RepeatedConditional:
