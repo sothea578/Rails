@@ -6,6 +6,7 @@ password:
   minimum: 6
 gravatar:
   size: 80
+  size_on_show: 30
 users:
   avatar: 50
 paginate:
@@ -15,3 +16,4 @@ content:
 limit: 5
 picture:
   limit: 200
+expired: 2

@@ -15,6 +15,9 @@ UtilityFunction:
 DuplicateMethodCall:
   enabled: false
 
+TooManyMethods:
+  max_methods: 18
+
 exclude_paths:
   - db
 
@@ -23,6 +26,10 @@ exclude_paths:
     enabled: false
   TooManyStatements:
     max_statements: 15
+  TooManyInstanceVariables:
+    max_instance_variables: 5
+  TooManyStatements:
+    max_statements: 10
   NilCheck:
     enabled: false
   RepeatedConditional:

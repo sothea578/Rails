@@ -10,7 +10,7 @@ en:
   expired: "Password reset has expired."
   empty: "can't be empty"
   reseted: "Password has been reset."
-  notfound: "Not found this User"
+  not_found: "Not found this User"
   time_post: "Posted %{time} ago."
   m_created: "Micropost created!"
   view_m: "view my profile"
@@ -23,6 +23,11 @@ en:
   limit: "should be less than 5MB"
   alert_js: "Maximum file size is 5MB. Please choose a smaller file."
   u_sure: "You sure?"
+  following: "%{count} Following"
+  followers: "%{count} Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  view_p: "view my profile"
   helpers:
     application_helper:
       title: "Ruby on Rails Tutorial Sample App"
@@ -104,6 +109,10 @@ en:
       updated: "Profile updated"
     create:
       activate: "Please check your email to activate your account."
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
   shared:
     error_messages:
       contains: "The form contains %{count_errors}"
