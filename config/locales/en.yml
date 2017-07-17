@@ -10,6 +10,19 @@ en:
   expired: "Password reset has expired."
   empty: "can't be empty"
   reseted: "Password has been reset."
+  notfound: "Not found this User"
+  time_post: "Posted %{time} ago."
+  m_created: "Micropost created!"
+  view_m: "view my profile"
+  micropost: "Micropost"
+  compose: "Compose new micropost..."
+  post: "Post"
+  m_feed: "Micropost Feed"
+  delete: "delete"
+  m_deleted: "Micropost deleted"
+  limit: "should be less than 5MB"
+  alert_js: "Maximum file size is 5MB. Please choose a smaller file."
+  u_sure: "You sure?"
   helpers:
     application_helper:
       title: "Ruby on Rails Tutorial Sample App"
@@ -41,6 +54,8 @@ en:
       this: "This is the home page for the
         %{rort} sample application."
       rort: "Ruby on Rails Tutorial"
+      signup: "Sign up now!"
+      railslogo: "Rails logo"
     about:
       about: "About"
       this: "The %{rort} is a %{book} and %{screencast}
@@ -124,3 +139,6 @@ en:
         <p>This link will expire in two hours.</p><br />
         <p>If you did not request your password to be reset,
         please ignore this email and your password will stay as it is.</p>"
+  errors:
+    messages:
+      mini_magick_processing_error: "should be less than 5MB"

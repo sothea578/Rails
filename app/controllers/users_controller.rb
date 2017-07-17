@@ -24,6 +24,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.paginate page: params[:page]
   end
 
   def edit
@@ -48,6 +49,7 @@ class UsersController < ApplicationController
 
   def find_user
     @user = User.find_by id: params[:id]
+
     unless @user
       redirect_to root_url
       flash[:info] = t ".notfound"
